@@ -1,0 +1,43 @@
+( homework of c )
+
+
+
+A loop control variable is basically a variable whose value determines whether a program exits a loop or continues executing the loop code.
+ for example
+
+ FOR I = 1 TO 10 (Here program will run upto 10 times)
+   ... do things ... 
+NEXT I 
+
+
+
+Pseudocode is a simplified representation of an algorithm that uses the English language to describe coding logic
+ For example
+ average NUMS 
+  SUM = 0 
+  Count = 0 
+  For each number I in NUMS 
+    Add I to SUM 
+    Add 1 to COUNT 
+  End for 
+  AVG = SUM divided by COUNT 
+  Return AVG 
+end
+
+Conditions are statements that are created by the programmer which evaluates actions in the program and evaluates if it's true or false. 
+
+#include<stdio.h>
+int main()
+{
+    int number,result=1,i,power;
+    printf("Enter the base number :");
+    scanf("%d",&number);
+    printf("Enter the power number:");
+    for (i=1;i<=power;i++)                         /* Here i=1 is starting condition and i can goup to power is ending condition where i++   is                                                                                                              is increment condition*/
+    {
+      result=result*number;
+    }
+    printf("result is : %d",result);
+    
+    return 0;
+}
